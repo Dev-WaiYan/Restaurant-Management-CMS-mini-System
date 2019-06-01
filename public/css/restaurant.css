@@ -1,0 +1,160 @@
+@font-face {
+	font-family: 'page-font';
+	src: url(fonts/pyidaungsu-regular.ttf);
+}
+
+@font-face {
+	font-family: 'title-font';
+	src: url(fonts/albaw.TTF);
+}
+
+@font-face {
+	font-family: 'bluebell-font';
+	src: url(fonts/Bluebell.ttf);
+}
+
+body p,a{
+	font-family: page-font;
+}
+
+html,body {
+	font-family: page-font;
+}
+
+h1 {
+	font-family: page-font;
+}
+
+h2 {
+	font-family: page-font;
+}
+
+h3 {
+	font-family: page-font;
+}
+
+span {
+	font-family: page-font;
+}
+
+a {
+	cursor: pointer;
+}
+
+.menu-bar,.menu-close {
+    margin-left: 20px;
+	font-size: 23px;
+	color: #fff;
+	float: left;
+	cursor: pointer;
+	display: none;
+}
+
+nav {
+	padding: 7px 0px 1px 0px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+	z-index: 3;
+}
+
+nav  ul  li {
+	color: #eff5f5;
+	display: inline-block;
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+}
+
+li.active {
+    color: orange;
+    font-weight: bold;
+}
+
+
+header {
+	height: 600px;
+	background-image: url(images/home-bg.jpg);
+	background-size: cover;
+	background-position: right;
+}
+
+header > section {
+	position: relative;
+	top: 50%;
+	font-family: title-font;
+}
+
+header h3 {
+	font-family: bluebell-font;
+}
+
+header button {
+	font-family: bluebell-font;  
+}
+
+main h2 {
+	font-family: bluebell-font;
+}
+
+main section h3 {
+	font-family: bluebell-font;
+}
+
+main img {
+	width: 100%;
+	height: 200px;
+}
+
+section.about h2 {
+	font-family: bluebell-font;
+}
+
+section.about h3 {
+	font-family: bluebell-font;
+}
+
+/* For booking-list */
+table.booking-list {
+	width: 100%;
+}
+
+table.booking-list td {
+	padding: 5px 40px 5px 20px;
+	text-align: right;
+}
+
+/* For menu-list */
+table.menu-list {
+	width: 100%;
+}
+
+table.menu-list td {
+	padding: 20px 40px 10px 20px;
+	text-align: right;
+}
+
+/* For medium screen */
+@media only screen and (max-width: 800px) {
+
+	.menu-bar {
+		display: initial;
+	}
+
+	.menu-close {
+		display: none;
+	}
+
+	#menu {
+		display: none;
+	}
+
+	nav ul li {
+		display: block;
+		text-align: center;
+		height: 30px;
+		width: 80%;
+	}
+
+}

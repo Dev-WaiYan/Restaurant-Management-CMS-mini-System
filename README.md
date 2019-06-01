@@ -1,0 +1,2 @@
+# Restaurant-Management-CMS-mini-System
+This is not big CMS system but you can improve high level projects from this. Because it has simple backend code for server side and good web responsive design. We believe it will give good support you if you find to make simple mini Restaurant-Management-CMS system. This is developed by Code Fluid-TeamCF. Our website is http://codefluid.dx.am/ and you can check this to more sample projects.
